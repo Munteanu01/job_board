@@ -3,7 +3,7 @@
         Jobs Heading
     </x-slot:heading>
 
-    <h1>{{ $greeting }} {{ $name }}</h1>
+
     @foreach ($jobs as $job)
         <ul>
             <li>
