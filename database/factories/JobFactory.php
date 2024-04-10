@@ -12,7 +12,7 @@ class JobFactory extends Factory
     {
         return [
             'title' => fake()->jobTitle(),
-            'salary' => fake()->numberBetween(100, 100.000),
+            'salary' => fake()->numberBetween(100, 100000),
         ];
     }
 }
